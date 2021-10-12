@@ -81,6 +81,10 @@ img {
 .form-control {
   margin-bottom: 20px;
 }
+
+.third-section input {
+  outline: none;
+}
 /*FOOTER*/
 footer,
 .footer-bottom {
