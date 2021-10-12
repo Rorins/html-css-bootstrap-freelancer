@@ -1,25 +1,75 @@
-header {
-  background-color: #2c3e50;
-  color: white;
-  height: 100px;
+/*UTILITIES*/
+.mg_big {
+  min-height: 400px;
 }
 
-.mg_big_box {
-  background-color: #1abc9c;
-  height: 400px;
+.center {
+  text-align: center;
 }
-.mg_big_box.white {
-  height: 400px;
-  background-color: white;
+
+.mg_big_box_white {
+  min-height: 400px;
 }
+
 .mg_small_box {
-  height: 300px;
-  background-color: #1abc9c;
+  min-height: 300px;
 }
 .box {
   border: 1px solid black;
 }
+
+.mg_head_box {
+  color: white;
+  min-height: 100px;
+}
+
+.mg_blue_box {
+  min-height: 200px;
+}
+
+.mg_darkblue_box {
+  background-color: #2c3e50;
+  min-height: 60px;
+}
+
+/*BACKGROUND*/
+.hero {
+  background-color: #1abc9c;
+}
+header {
+  background-color: #2c3e50;
+}
+.second-section {
+  background-color: #1abc9c;
+}
 footer {
   background-color: #3a546d;
-  height: 300px;
+}
+/*HERO*/
+
+nav li {
+  padding: 4px;
+}
+.hero-image {
+  width: 200px;
+  height: 200px;
+}
+
+.hero > * {
+  color: white;
+}
+
+/*FIRST SECTION*/
+.first-section .box {
+  height: 200px;
+  width: 300px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*FOOTER*/
+footer {
+  color: white;
 }
